@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { StyleSheet, Text, TextInput, Button, View } from 'react-native';
+import { StyleSheet, TextInput, Button, View } from 'react-native';
 
 export default function AddTodo({submitHandler}){
     const [text, setText] = useState('');
@@ -12,10 +12,10 @@ export default function AddTodo({submitHandler}){
         <View>
             <TextInput
                 style={StyleSheet.input}
-                placeholder='yapılacaklar...'
+                placeholder='Todos...'
                 onChangeText={changeHandler}
              />
-             <Button onPress={() => submitHandler(text) } title='ekle' color='coral' />
+            <Button onPress={() => submitHandler(text)} title='Add ToDo' color='#fbc02d' />
         </View>
     )
 }
