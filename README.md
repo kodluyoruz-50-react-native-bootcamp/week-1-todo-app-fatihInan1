@@ -7,6 +7,6 @@
 fatihInan1 created by GitHub Classroom
 
 # Screenshots
-<image src="images/toDo1.PNG" height= 600>
+<image align="left" src="images/toDo1.PNG" height= 600>
 <image src="images/toDo2.PNG" height= 600>
 
